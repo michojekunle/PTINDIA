@@ -1,0 +1,289 @@
+*{
+    font-family:'Segoe UI';   
+}
+
+main {
+    background-image: url(./bg_img.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding-bottom: 10px; 
+}
+
+.navbar .dlg {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.lg {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 8px;
+}
+
+ul li {
+    display: inline-block;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    padding: 5px 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: .5s;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: rgb(131, 228, 175);
+    font-size: 14px;
+    background-color: transparent;
+    color: rgb(131, 228, 175);
+    border: 3px solid rgb(131, 228, 175);
+    border-radius: 12px;
+    padding: 6px 30px;
+}
+
+.login {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: rgb(131, 228, 175);
+    border: none;
+    border-radius: 12px;
+    padding: 6px 40px;
+    font-size: 16px;
+    color: white;
+    transition: .5s;
+}
+
+.login:hover {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 6px 40px;
+    font-size: 18px;
+    color:rgb(131, 228, 175) ;
+    border: 3px solid rgb(131, 228, 175);
+}
+
+.sw {
+    margin-top: 120px;
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+}
+
+span {
+    color:rgb(131, 228, 175) ;
+}
+
+.bas {
+    background-color: rgb(131, 228, 175) ;
+    color: white;
+    border-radius: 12px;
+    padding: 6px 75px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color:rgb(131, 228, 175) ;
+    margin-top: 3%;
+    margin-left: 40%;
+    transition: .5s;
+}
+.bas:hover {
+    background-color: transparent ;
+    color:rgb(131, 228, 175) ;
+    border-radius: 12px;
+    padding: 6px 80px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 4px solid rgb(131, 228, 175);
+    margin-top: 3%;
+    margin-left: 39%;
+}
+.msg {
+    margin-left: 90%;
+    margin-top: 16%;
+}
+
+.sc1 {
+    margin: 70px;
+    display: flex;
+}
+ 
+h2{
+    font-size: 32px;
+    margin-right: 20%;
+}
+
+.art1{
+    margin-top: 40px;
+    transition: .5s;
+}
+.art1:hover {
+    transform: translateY(-15px);
+    border: 4px solid rgb(131, 228, 175);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(131, 228, 175, 0.1);
+    color: rgb(131, 228, 175);
+    text-align: center;
+}
+
+.art2 {
+    margin-top: 90px;
+    transition: .5s;
+}
+
+.art2:hover {
+    transform: translateY(-15px);
+    border: 4px solid rgb(131, 228, 175);
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(131, 228, 175, 0.1);
+    color: rgb(131, 228, 175);
+    text-align: center;
+}
+
+.art3{
+    margin-top: 40px;
+    transition: .5s;
+}
+
+.art3:hover {
+    transform: translateY(-15px);
+    border: 4px solid rgb(131, 228, 175);
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(131, 228, 175, 0.1);
+    color: rgb(131, 228, 175);
+    text-align: center;
+}
+
+.art4 {
+    margin-top: 68px;
+    transition: .5s;
+}
+
+.art4:hover {
+    transform: translateY(-15px);
+    border: 4px solid rgb(131, 228, 175);
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(131, 228, 175, 0.1);
+    color: rgb(131, 228, 175);
+    text-align: center;
+}
+
+.art34 {
+    margin-left: 40px ;
+}
+
+.sc2 {
+    display: flex;
+    margin: 70px;
+}
+
+.waw{
+    margin: 70px;
+    margin-left: 0px;
+}
+
+.wawwrd {
+    margin-left: 26.4%;
+    margin-right: 0%;
+    margin-top: 70px;
+}
+
+.logo{
+    display:inline-block;
+    align-items: center;
+    justify-content:center;
+}
+
+.lg2 {
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.sc3 {
+    display: flex;
+    margin: 70px;
+}
+
+.wcp {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.wcp2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wcpwrd {
+margin-right: 13.5%;
+}
+
+.normal {
+    color: #000;
+    margin-left: 20px;
+}
+
+footer {
+    
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 30px;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 70px
+
+}
+.nrmspan{
+    color: #000;
+    font-size: large;
+}
+
+
+#und {
+    border-bottom: 2px solid rgb(131, 228, 175) ;
+    padding-bottom: 6px;
+    color: #000;
+}
+
+#Copy {
+    padding: 20px;
+}
+
+#logo {
+    display: flex;
+}
+
+.ulc ul li {
+    transition: 0.5s;
+}
