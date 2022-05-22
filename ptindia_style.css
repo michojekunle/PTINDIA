@@ -120,8 +120,10 @@ span {
     margin-left: 39%;
 }
 .msg {
+    position: fixed;
     margin-left: 90%;
-    margin-top: 16%;
+    bottom: 15px;
+    cursor:pointer;
 }
 
 .sc1 {
