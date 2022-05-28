@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/Vector.png" type="image/x-icon">
     <link rel="stylesheet" href="ptindia_style.css">
-    <title>PTINDIA</title>
+    <script defer src="script.js"></script>
+    <title>PTING</title>
 </head>
 <body>
+<!--main section-->
     <main>
         <header>
             <nav class="navbar">
                 <div class="dlg">
-                    <img height="30px" width="40px" src="./ptinidia2.png" class="logo">
-                    <span class="lg">ptindia</span>
+                    <img height="40px" width="55px" src="./images/Vector.png" class="logo">
+                    <span class="lg">Pting</span>
                 </div>
                 <div class="ulc">
                     <ul>
@@ -21,10 +24,11 @@
                         <li> <a href="#">About</a> </li>
                         <li> <a href="#">Portfolio</a> </li>
                         <li> <a href="#">Career</a> </li>
+                        <li> <button class="login">Login</button> </li>
                     </ul>
                 </div>
-                <button class="login">Login</button>
             </nav>
+            <hr>
         </header>
 
         <div class="sw">
@@ -32,29 +36,51 @@
             <p align="center">We are on a mission to build, grow and 
                 maintain loyal communities at every touchpoint.
                  This means you can accomplish your<br> business goals
-                  through digital marketing</p>
-            <button  class="bas" align="center">Book a service</button>
+                 through digital marketing</p>
+        </div>        
+                <button data-modal-target="#modal" class="bas">Book a Service</button>
+
+        <img height="60px" width="60px" src="./images/messaging-icon-png-7.jpg" class="msg">    
+
+        <!--pop up form-->
+        <div class="modal " id="modal">
+            <div class="modal_header">
+                <div class="sign-up">Sign Up</div>
+                <button data-close-button class="close_button">&times;</button>
+            </div>
+            <div class="modal_body">
+                <form>
+                    <p>Get started with us to get offers, support and more.</p>
+                    <label class="val">Name</label><br><br>
+                    <input type="text" class="input" placeholder="Enter Name"><br><br>
+                    <label class="val">Email</label><br><br>
+                    <input type="email" class="input" placeholder="Enter Email"><br>
+                    <input data-close-button id="sub" type="submit" value="Submit">
+                </form>
+            </div>
         </div>
-        <img height="60px" width="60px" src="./messaging-icon-png-7.jpg" class="msg">
+        <div id="overlay"></div>
+
     </main>
 
+<!--section one-->
     <section class="sc1">
         <h2 class="sc1head">
             Offering smart <br> <span>software and web <br> solution</span>
             built with the <br> <span>latest technology.</span>
         </h2>
         <div class="art12">
-        <article class="art1">
-            <img height="50px" width="50px" src="./desktop (2).png">
+        <article class="art1 arti">
+            <img height="50px" width="50px" src="./images/desktop (2).png">
             <br><br>
             <h3>Website Development</h3>
             <p>We take responsibility of your best <br>
             online presence by our unique <br>
              website development methods.</p>
         </article>
-
-        <article class="art2">
-            <img height="50px" width="50px" src="./phone.png">
+<br>
+        <article class="art2 arti">
+            <img height="50px" width="50px" src="./images/phone.png">
             <br><br>
             <h3>App Development</h3>
             <p>Our app development team is <br>
@@ -65,8 +91,8 @@
         </div>
         
         <div class="art34">
-        <article class="art3">
-            <img height="50px" width="50px" src="./cpu.png">
+        <article class="art3 arti">
+            <img height="50px" width="50px" src="./images/cpu.png">
             <br><br>
             <h3>Software Development</h3>
             <p>We our master of our work.<br>
@@ -75,8 +101,8 @@
             max productivity.</p>
         </article>
 
-        <article class="art4">
-            <img height="50px" width="50px" src="./speaker.png">
+        <article class="art4 arti">
+            <img height="50px" width="50px" src="./images/speaker.png">
             <br><br>
             <h3>Brand Promotion</h3>
             <p>We design perfect marketing <br>
@@ -87,12 +113,15 @@
         </div>
     </section>
 
+<!--section two-->
     <section class="sc2">
         <h2 class="waw">Who are we?</h2>
         <article class="wawwrd">
-            <img height="50px" width="50px" src="./ptinidia2.png" class="logo"><span class="lg2 ">ptindia</span>
+            <div id="log log2">
+                <img height="70px" width="70px" src="./images/Vector.png" class="logo2"><span class="lg2 lgc">Pting</span>                
+            </div>
             <br><br>
-            <p class="waword">Ptindia is an IT Start up having its head office in Lucknow. We are<br>
+            <p class="wawrd">Pting is an IT Start up having its head office in Lucknow. We are<br>
                specialized in Website Development, ERP and CRM Development, <br>
                Android Application Development and Search Engine Optimization.<br>
                Our primary objective to provide high quality service to our valuable <br>
@@ -101,46 +130,46 @@
         </article>
     </section>
 
+<!--section three-->
     <section class="sc3">
+    
     <div class="wcpwrd">
-        <h1>Why choose <span>ptindia?</span></h1>
-        <p>We are on a mission to build, grow and 
-            maintain <br> loyal communities at 
+        <h2>Why choose <span>Pting?</span></h2>
+        <p>We are on a mission to build,<br> grow and 
+            maintain loyal <br>communities at 
             every touchpoint.
         </p>
     </div>
     
     <div class="wcp">
         <article class="wcp2">
-            <img height="50px" width="50px" src="./atm.png" class="scw2">
+            <img height="50px" width="50px" src="./images/atm.png" class="scw2"><br>
             <span class="normal">We Deliver top Ranking On Web Marketing.</span>
         </article>
 <br><br>
         <article class="wcp2">
-            <img height="50px" width="50px" src="./headphones.png" class="scw2">
-            <span class="normal">Proper and high Customer engagement.&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <img height="50px" width="50px" src="./images/headphones.png" class="scw2"> <br>
+            <span class="normal">Proper and high Customer engagement.</span>
         </article>
 <br><br>
         <article class="wcp2">
-            <img height="50px" width="50px" src="./mark.png" class="scw2">
+            <img height="50px" width="50px" src="./images/mark.png" class="scw2"><br>
             <span class="normal">A perfect Support system for every little niche.</span>
         </article>
 <br><br>
         <article class="wcp2">
-            <img height="50px" width="50px" src="./money.png" class="scw2">
-            <span class="normal">Not Expensive, just in your budget.&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
+            <img height="50px" width="50px" src="./images/money.png" class="scw2"><br>
+            <span class="normal">Not Expensive, just in your budget.</span>
         </article>
     </div>
     </section>
 <br><br><br>
 
+<!--Last section and footer-->
     <footer>
         <nav id="nav">
-        <div id="logo">
-            <img height="50px" width="50px" src="./ptinidia2.png" class="logo"><span class="lg2">ptindia</span>
+        <div id="log">
+            <img height="70px" width="70px" src="./images/Vector.png" class="logo2 lg8"><span class="lg2">Pting</span>
         </div>
         <div id="contact-us">
             <h3> Contact Us</h3><br>
@@ -151,16 +180,16 @@
         </div>
         <div id="FAQ">
         <h3>F.A.Q</h3><br>
-            <img height="10px" width="10px" src="./plus.png" 
-            class="plus"><span class="nrmspan">&nbsp;&nbsp; What 
+            <img height="10px" width="10px" src="./images/plus.png" 
+            class="plus"><span class="nrmspan">&nbsp;&nbsp;What 
                 type of team does ptindia have?</span><br><br><br>
 
-            <img height="10px" width="10px"src="./plus.png" 
-            class="plus"><span class="nrmspan">&nbsp;&nbsp; What type of technology does ptindia 
+            <img height="10px" width="10px"src="./images/plus.png" 
+            class="plus"><span class="nrmspan">&nbsp;&nbsp;What type of technology does ptindia 
             handle?</span><br><br><br>
             
-            <img height="10px" width="10px"src="./plus.png" 
-            class="plus"><span class="nrmspan">&nbsp;&nbsp;  How can I purchase from 
+            <img height="10px" width="10px"src="./images/plus.png" 
+            class="plus"><span class="nrmspan">&nbsp;&nbsp;How can I purchase from 
                 ptindia?</span><br><br><br>
 
         </div>
