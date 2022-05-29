@@ -28,7 +28,7 @@ main {
 }
 
 .modal.active {
-    transform: translateY(-100%) scale(1);
+    transform: translateY(-120%) scale(1);
 }
 
 #overlay {
@@ -337,6 +337,7 @@ footer {
 @media (max-width:600px) {
     body{
         margin: 0;
+        width:100vw;
     }
     main {
         width: 100%;
@@ -512,6 +513,7 @@ footer {
     }
 
     .msg{
+        position: fixed;
         margin-left: 75vw;
         width: 15vw;
         bottom: 25px;
