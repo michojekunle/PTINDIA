@@ -1,2 +1,2 @@
 # PTINDIA
-A website project Ptindia made with HTML an CSS 
+A website project Ptindia made with HTML, CSS and JavaScript.
