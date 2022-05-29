@@ -23,7 +23,7 @@ main {
     width: 60vw;
     height: 60vh;
     background-color: rgb(131, 228, 175);
-    transform: translateY(-100%) scale(0);
+    transform: translateY(-120%) scale(0);
     transition: 500ms ease-in-out;
 }
 
@@ -516,9 +516,14 @@ footer {
         position: fixed;
         margin-left: 75vw;
         width: 15vw;
-        bottom: 25px;
+        bottom: 15vh;
         cursor:pointer;
         z-index: 8;       
+    }
+
+    .modal:active {
+         transform: translateY(-140px) scale(1);
+
     }
 
     #Copy{
