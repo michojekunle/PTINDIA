@@ -206,7 +206,7 @@ span {
 
 .msg {
     position: fixed;
-    margin-left: 90%;
+    right: 20px;
     bottom: 15px;
     cursor:pointer;
     z-index: 8;
@@ -383,7 +383,7 @@ footer {
     
     .modal {
         width: 90vw;
-        margin:20vh auto;
+        margin:20vh 5vw;
     }
     
     .sw{
