@@ -383,7 +383,7 @@ footer {
     
     .modal {
         width: 90vw;
-        margin:20vh 5vw ;
+        margin:20vh auto;
     }
     
     .sw{
