@@ -521,11 +521,6 @@ footer {
         z-index: 8;       
     }
 
-    .modal:active {
-         transform: translateY(-140px) scale(1);
-
-    }
-
     #Copy{
         width: 100vw;
     }
